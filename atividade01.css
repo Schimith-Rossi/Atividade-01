@@ -1,21 +1,34 @@
-#header {
-	padding: 10px;
-	padding-left: 30px;
+html {
+	font-size: 62.5%;
 }
 
-#conteudo{
+body {
+	font-family: "Nunito", sans-serif;
+	font-size: 1.6rem;
+}
+
+.header {
+	padding: 1rem;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+	gap: 20rem;
+}
+
+.conteudo{
 	text-align: left;
 	margin-top: 10px;
 	padding: 10px;
 }
 
-body {
-	font-family: "Nunito", sans-serif;
-}
-
 h2 {
 	font-size: 40px;
 	font-weight: 700;
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: 500;
 }
 
 table {
@@ -58,7 +71,7 @@ ol {
 
 .images_table {
 	height: 130px;
-	weight: 130px;
+	width: 130px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
